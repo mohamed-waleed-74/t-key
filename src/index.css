@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --gold: #D4AF37;
+    --black: #000000;
+  }
+
+  body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Custom minimal dark scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1F1F1F;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D4AF37;
+  }
+}
+
+/* Dotted Gold Divider Component */
+.gold-dotted-line {
+  background-image: radial-gradient(circle, #D4AF37 1px, transparent 1.5px);
+  background-size: 8px 1px;
+  background-repeat: repeat-x;
+  height: 1px;
+  width: 100%;
+}
+
+.gold-dotted-line-subtle {
+  background-image: radial-gradient(circle, rgba(212, 175, 55, 0.4) 1px, transparent 1.5px);
+  background-size: 10px 1px;
+  background-repeat: repeat-x;
+  height: 1px;
+  width: 100%;
+}
+
+.gold-dotted-vertical {
+  background-image: radial-gradient(circle, rgba(212, 175, 55, 0.4) 1px, transparent 1.5px);
+  background-size: 1px 10px;
+  background-repeat: repeat-y;
+  width: 1px;
+}
+
+/* Watermark typography */
+.watermark-t {
+  font-family: 'Bebas Neue', sans-serif;
+  color: rgba(255, 255, 255, 0.02);
+  line-height: 0.7;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Subtle float animation for physical acrylic stands */
+@keyframes acrylicFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(0.4deg);
+  }
+}
+
+.animate-acrylic-float {
+  animation: acrylicFloat 8s ease-in-out infinite;
+}
+
+/* NFC Wave Pulse */
+@keyframes nfcPulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+.animate-nfc-wave {
+  animation: nfcPulse 2.4s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+}
+
+/* Gold shimmer border effect */
+.border-gold-glow {
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.12);
+}
