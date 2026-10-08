@@ -1,16 +1,26 @@
-# React + Vite
+# T-KEY — TAP INTO YOUR BUSINESS
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+[![Live Website](https://img.shields.io/badge/LIVE_WEBSITE-t--key.vercel.app-D4AF37?style=for-the-badge&logo=vercel&logoColor=black)](https://t-key.vercel.app)
+[![GitHub](https://img.shields.io/badge/GITHUB-mohamed--waleed--74%2Ft--key-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohamed-waleed-74/t-key)
 
-Currently, two official plugins are available:
+### 🌐 [اضغط هنا لفتح الموقع مباشرة | Click Here to Open Live Website](https://t-key.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Direct Link:** [https://t-key.vercel.app](https://t-key.vercel.app)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔑 About T-KEY
+**T-KEY** creates premium physical NFC + QR hardware products that connect businesses with their customers digitally.
 
-## Expanding the Oxlint configuration
+> **"A physical key to the digital side of your business."**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### 📦 Launch Products:
+- **T-REVIEW**: Direct 5-Star Google Reviews acrylic counter stand.
+- **T-MENU**: Contactless dining and bar table menu stand.
+- **T-SOCIAL**: Omnichannel social media counter stand (Instagram, TikTok, WhatsApp).
+
+### 🛠️ Tech Stack:
+- **Framework**: React 19 + Vite
+- **Styling**: Tailwind CSS (Black `#000000` & 24K Gold `#D4AF37` strict luxury system)
+- **Deployment**: Vercel Global Edge Network
+- **Icons**: Lucide React + custom 1.5px gold line SVGs
